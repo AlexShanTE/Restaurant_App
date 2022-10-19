@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.shante.restaurantapp.presentation.menu.MenuFragment"
+        tools:layout="@layout/menu_fragment"
+        android:label="MenuFragment">
+        <action
+            android:id="@+id/action_menuFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bucketFragment"
+        tools:layout="@layout/bucket_fragment"
+        android:name="com.shante.restaurantapp.presentation.bucket.BucketFragment"
+        android:label="BucketFragment" />
+    <fragment
+        android:id="@+id/detailsFragment"
+        tools:layout="@layout/details_fragment"
+        android:name="com.shante.restaurantapp.presentation.details.DetailsFragment"
+        android:label="DetailsFragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        tools:layout="@layout/profile_fragment"
+        android:name="com.shante.restaurantapp.presentation.profile.ProfileFragment"
+        android:label="ProfileFragment" />
+</navigation>

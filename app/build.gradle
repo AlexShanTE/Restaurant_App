@@ -12,13 +12,18 @@ android {
 
     defaultConfig {
         applicationId "com.shante.restaurantapp"
-        minSdk 24
+        minSdk 21
         targetSdk 33
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+    buildFeatures {
+        viewBinding true
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -28,9 +33,7 @@ android {
     kapt {
         correctErrorTypes true
     }
-    buildFeatures {
-        viewBinding true
-    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
