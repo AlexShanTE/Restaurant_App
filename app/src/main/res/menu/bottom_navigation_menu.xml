@@ -12,7 +12,6 @@
     <item
         android:id="@+id/bucketFragment"
         android:icon="@drawable/ic_bucket"
-        android:title="@string/bucket"
-        />
+        android:title="@string/bucket" />
 
 </menu>

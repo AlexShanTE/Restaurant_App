@@ -12,4 +12,46 @@
     <string name="menufragment">MenuFragment</string>
     <string name="profilefragment">ProfileFragment</string>
 
+    <!-- Top bar menu-->
+    <string name="qr_code">qr_code</string>
+
+    <string name="dummy_text">Расска́з, или нове́лла (итал. novella — новость), — основной жанр малой повествовательной прозы. Автора рассказов принято именовать новеллистом, а совокупность рассказов — новеллистикой.
+
+    Рассказ — меньшая по объёму форма художественной прозы, нежели повесть или роман[1]. Не следует путать новеллу — короткий рассказ[2], отличающийся стилем изложения[3][4][5], с её английским омонимом novella, являющимся эквивалентом современного понятия повесть[6][7].
+
+    Рассказ восходит к фольклорным жанрам устного пересказа в виде сказаний или поучительного иносказания и притчи[8][9]. По сравнению с более развёрнутыми повествовательными формами в рассказах не много действующих лиц и одна сюжетная линия (реже несколько) при характерном наличии какой-то одной проблемы.
+
+    Рассказам одногоавтора свойственна циклизация.
+        В традиционной модели отношений «писатель-читатель» рассказ, как правило, публикуется в периодическом издании; накопленные за определённый период произведения затем издаются отдельной книгой как сборник рассказов.
+
+    The plugin adds a random text
+    generator, capable of creating witty texts in different genres. Created text can be inserted
+    newly at the caret, or replace a selection.
+    The dummy text generator
+    is added to the main menu,
+    tools menu and into the generate… popup (Alt+Insert).
+
+    Used from the main menu,
+    text is generated in the previously selected genre.
+    Used from the Tools menu
+    or Generate popup, the plugin allows to choose from several genres::
+    Culinary Inspirations
+    Esoteric Wisdom
+    Fake Latin (similar to "Lorem Ipsum" blindtext)
+    Pirate Lingo
+    Science Fiction
+
+    When replacing a multi-lined
+    selection of text, the generated
+    dummy text maintains the amount of lines. When replacing a selection of text within a single
+    line, the amount of words is roughly being maintained.
+    When the replaced text
+    selection consists fully of lower-cased or capital letters or begins with a capital letter, that
+    previous casing is maintained. Furthermore, the presence or absence of a trailing punctuation
+    mark of a replaced text selection is being maintained.
+    Please note: This plugin
+    is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+    either express or implied.</string>
+
 </resources>
